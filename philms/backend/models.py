@@ -5,7 +5,7 @@ from django.db import models
 
 
 class Game(models.Model):
-    code = models.CharField(max_length=4)
+    code = models.CharField(db_index=True, max_length=4)
     is_open = models.BooleanField(default=True)
 
     def save(self, *args, **kwargs):
