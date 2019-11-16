@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
 
-from backend.models import Game
+from game.models import Game
 from .forms import GameCodeForm
 
 
