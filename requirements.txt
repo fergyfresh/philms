@@ -13,7 +13,7 @@ lazy-object-proxy==1.4.3
 lxml==4.4.1
 mccabe==0.6.1
 more-itertools==7.2.0
--e git+ssh://git@github.com/fergyfresh/philms-genre@6cea998f427d1be6618772b6be39131cce1b7d05#egg=philms_genre
+-e git://git@github.com/fergyfresh/philms-genre@6cea998f427d1be6618772b6be39131cce1b7d05#egg=philms_genre
 pylint==2.4.4
 python-crontab==2.4.0
 python-dateutil==2.8.1
