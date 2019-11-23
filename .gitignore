@@ -6,4 +6,6 @@ __pycache__/
 *$py.class
 *.swp
 db.*
+.dev
+.venv
 celerybeat-schedule

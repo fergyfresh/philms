@@ -10,7 +10,5 @@ class Game(models.Model):
 
     def save(self, *args, **kwargs):
         if not self.pk:
-            self.code = "".join(
-                random.choice(string.ascii_uppercase) for i in range(4)
-            )
+            self.code = "".join(random.choice(string.ascii_uppercase) for i in range(4))
         super(Game, self).save(*args, **kwargs)
