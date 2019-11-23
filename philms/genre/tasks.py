@@ -1,6 +1,8 @@
 from celery import task
 from philms_genre import philms_genre
 
+from genre.models import Genre
+
 
 @task(bind=True)
 def sync_latest_top_movie_genres(self):
