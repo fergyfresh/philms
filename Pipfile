@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+black = "*"
+
+[packages]
+django = "*"
+django-celery-beat = "*"
+philms-genre = {editable = true,git = "https://github.com/fergyfresh/philms-genre",ref = "6cea998f427d1be6618772b6be39131cce1b7d05"}
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
